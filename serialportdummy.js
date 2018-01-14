@@ -17,13 +17,28 @@ var Readline = serialport.parsers.Readline; // make instance of Readline parser
 var parser = new Readline(); // make a new parser to read ASCII lines
 myPort.pipe(parser); // pipe the serial stream to the parser
 
-function showPortOpen() {
-    console.log('port open. Data rate: ' + myPort.baudRate);
-    myPort.on('data', readSerialData);
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function showPortOpen() {
+    myPort.write('update', 90);
+    console.log('sending data to aurdrino');
+    for (i = 0; i < 5; i++) {
+        console.log('sending 0');
+        await sleep(1000);
+        myPort.write('update', 0);
+        await sleep(1000);
+        console.log('sending 90');
+        myPort.write('update', 90);
+        await sleep(1000);
+
+    }
+
 }
 
 function readSerialData(data) {
-    console.log(data);
+    console.log(data.toString());
 }
 
 function showPortClose() {
