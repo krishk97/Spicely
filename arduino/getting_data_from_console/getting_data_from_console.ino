@@ -30,17 +30,15 @@ void loop() {
     delay(210);
     servo1.write(91);
     delay(1000); */
-    
-    for (int spiceId = 0 ; spiceId < 4; spiceId++) {
+    delay(1000);
+    for (int i = 0 ; i < 10; i++) {
+      
       Serial.flush();
 
-      String spiceIdString = String(spiceId);
-      String messageId = "Please input how much spice you need for spice id: " + spiceIdString;
-      while(!Serial.available()){};
-      Serial.println(messageId);
-      int angle = Serial.parseInt();
-      servo1.write(angle);
-      Serial.println("Input angle for spice id: " + spiceIdString + " is " +  String(angle));
+      servo1.write(90);
+      delay(300);
+      servo1.write(0);
+      delay(300);
     }
     
 }
