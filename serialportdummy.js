@@ -19,6 +19,7 @@ myPort.pipe(parser); // pipe the serial stream to the parser
 
 function showPortOpen() {
     console.log('port open. Data rate: ' + myPort.baudRate);
+    myPort.on('data', readSerialData);
 }
 
 function readSerialData(data) {
@@ -34,6 +35,6 @@ function showError(error) {
 }
 
 myPort.on('open', showPortOpen);
-parser.on('data', readSerialData);
+myPort.on('data', readSerialData);
 myPort.on('close', showPortClose);
 myPort.on('error', showError);
