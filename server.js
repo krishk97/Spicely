@@ -1,7 +1,7 @@
 const express = require('express');
 const SerialPort = require("serialport");
 
-var serialport = new SerialPort("/dev/tty.usbmodem1421");
+const serialport = new SerialPort("/dev/tty.usbmodem1421");
 serialport.on('open', function(){
     console.log('Serial Port Opend');
     serialport.on('data', function(data){
