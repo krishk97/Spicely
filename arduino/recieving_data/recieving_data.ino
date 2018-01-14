@@ -10,8 +10,9 @@ int teaspoons = 5;
 
 
 void setup() {
+  pinMode(13, OUTPUT);
   Serial.begin(9600);
-  Serial.print("FOO");
+  
 
   servo1.attach(8);
   servo2.attach(9);
@@ -27,22 +28,16 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
+
   /* moves 90degrees clockwise
-    servo1.write(50);
+    servo1.write(50); 
     delay(210);
     servo1.write(91);
     delay(1000); */
-
-    int isAvailable = Serial.available();
-
-    while (isAvailable) {
-      int rotation_state = (int)Serial.read(); 
-      Serial.write("Received\n");
-      Serial.write(rotation_state);
-      servo1.write(rotation_state);
-      Serial.write("Sending Rotation state to nodejs\n");
-      Serial.write(rotation_state);
-    }
-    delay(200);
+    Serial.flush(); //flush all previous received and transmitted data
+    while(!Serial.available());
     
+    int rotation_state = Serial.parseInt(); 
+    
+    servo1.write(rotation_state);
 }

@@ -22,7 +22,6 @@ function sleep(ms) {
 }
 
 async function showPortOpen() {
-    myPort.write('update', 90);
     console.log('sending data to aurdrino');
     for (i = 0; i < 5; i++) {
         console.log('sending 0');
