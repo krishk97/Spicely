@@ -6,7 +6,7 @@ Node.js is used for a browser to communicate with the seasoning dispenser. To op
 
 ## Contributors
 - John Wu - [johnwu93@gmail.com](mailto:johnwu93@gmail.com)
-- Kirsh Kabra - [krish@kabra.com](mailto:krish@kabra.com)
+- Krish Kabra - [krish@kabra.com](mailto:krish@kabra.com)
 - Jabr Abumaali - [jabumaali@gmail.com](mailto:jabumaali@gmail.com)
 - Jack Li - [jackli2014@gmail.com](mailto:jackli2014@gmail.com)
 - Srishti Pal - [spal9247@g.ucla.edu](mailto:spal9247@g.ucla.edu)
