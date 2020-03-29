@@ -4,6 +4,22 @@ An automatic seasoning dispenser. This is a Hackathon project for UCLA's IDEA Ha
 
 Node.js is used for a browser to communicate with the seasoning dispenser. To open the website, you will need to start the node server by running `node nodeserver.js`  
 
+## Presentation
+
+<img src="presentation/Spicely - LA Hacks 2018 (0).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (1).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (2).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (3).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (4).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (5).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (6).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (7).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (8).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (9).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (10).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (11).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (12).png" height="300"/>
+
 ## Contributors
 - John Wu - [johnwu93@gmail.com](mailto:johnwu93@gmail.com)
 - Krish Kabra - [krish@kabra.com](mailto:krish@kabra.com)
