@@ -6,19 +6,19 @@ Node.js is used for a browser to communicate with the seasoning dispenser. To op
 
 ## Presentation
 
-<img src="presentation/Spicely - LA Hacks 2018 (0).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (1).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (2).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (3).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (4).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (5).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (6).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (7).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (8).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (9).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (10).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (11).png" height="300"/>
-<img src="presentation/Spicely - LA Hacks 2018 (12).png" height="300"/>
+<img src="presentation/Spicely - LA Hacks 2018 (0).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (1).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (2).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (3).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (4).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (5).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (6).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (7).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (8).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (9).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (10).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (11).png" height="500"/>
+<img src="presentation/Spicely - LA Hacks 2018 (12).png" height="500"/>
 
 ## Contributors
 - John Wu - [johnwu93@gmail.com](mailto:johnwu93@gmail.com)
